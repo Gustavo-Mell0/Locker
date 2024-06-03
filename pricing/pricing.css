@@ -1,0 +1,25 @@
+body {
+  background-color: #070707;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.zoom {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
